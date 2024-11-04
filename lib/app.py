@@ -4,7 +4,7 @@ from models import Base, User, Patient, Doctor, PatientDoctor  # Import models f
 import os
 
 # Absolute path to the database file
-db_path = os.path.join(os.path.dirname(__file__), '../AppointMed.db')  # Adjust path if needed
+db_path = os.path.join(os.path.dirname(__file__), '../AppointMed.db')
 DATABASE_URL = f"sqlite:///{db_path}"
 
 # Create the engine and session

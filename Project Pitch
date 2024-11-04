@@ -62,17 +62,19 @@ PATCH Routes:
 /appointments/:id: Update appointment details like time, duration, and status.
 /patients/:id: Edit patient profile details.
 DELETE Routes:
-
 /appointments/:id: Delete an appointment from the system.
-MVP (Minimum Viable Product)
+
+MVP (Minimum Viable Product):
 The PatientConnect app will allow users to:
 
-Book Appointments: Patients can select doctors based on specialty and view available times.
-View Appointment Schedules: Patients and doctors can view upcoming appointments with real-time updates.
-User Registration and Login: Basic authentication with different access levels for patients and doctors.
-Manage Appointment Details: Doctors can adjust appointment statuses, and patients can reschedule if needed.
-Stretch Goals
-Availability Filtering: Enable patients to view only available slots for selected doctors.
-Real-Time Notifications: Implement email/SMS reminders for upcoming appointments and status updates.
-Analytics Dashboard: Allow clinic administrators to monitor appointment volume and manage resources.
-Telemedicine Integration: Include video consultation options for remote appointments, powered by WebRTC or similar technologies. -->
+-Book Appointments: Patients can select doctors based on specialty and view available times.
+-View Appointment Schedules: Patients and doctors can view upcoming appointments with real-time updates.
+-User Registration and Login: Basic authentication with different access levels for patients and doctors.
+-Manage Appointment Details: Doctors can adjust appointment statuses, and patients can reschedule if needed.
+
+Stretch Goals:
+
+-Availability Filtering: Enable patients to view only available slots for selected doctors.
+-Real-Time Notifications: Implement email/SMS reminders for upcoming appointments and status updates.
+-Analytics Dashboard: Allow clinic administrators to monitor appointment volume and manage resources.
+-Telemedicine Integration: Include video consultation options for remote appointments, powered by WebRTC or similar technologies. -->
